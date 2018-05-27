@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AB4CCD52B5E294D4E289EA7 /* Pods_WhyFiMacUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079145F4BE358B9E93D6AB27 /* Pods_WhyFiMacUITests.framework */; };
+		3F560BD22278D2D519A4C784 /* Pods_WhyFiMacTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997B873DA652EECEBA3AB4A5 /* Pods_WhyFiMacTests.framework */; };
+		5A6F00BDF4097190D2E7D3D8 /* Pods_WhyFiMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D739D920DBE1EE8122F7E47 /* Pods_WhyFiMac.framework */; };
+		E2672FA820BA88DD0029C019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2672FA720BA88DD0029C019 /* AppDelegate.swift */; };
+		E2672FAA20BA88DD0029C019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2672FA920BA88DD0029C019 /* ViewController.swift */; };
+		E2672FAC20BA88DE0029C019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2672FAB20BA88DE0029C019 /* Assets.xcassets */; };
+		E2672FAF20BA88DE0029C019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2672FAD20BA88DE0029C019 /* Main.storyboard */; };
+		E2672FBB20BA88DE0029C019 /* WhyFiMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2672FBA20BA88DE0029C019 /* WhyFiMacTests.swift */; };
+		E2672FC620BA88DE0029C019 /* WhyFiMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2672FC520BA88DE0029C019 /* WhyFiMacUITests.swift */; };
+		E2DB2EFC20BABA9000125B9A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DB2EFB20BABA9000125B9A /* Network.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2672FB720BA88DE0029C019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2672F9C20BA88DD0029C019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2672FA320BA88DD0029C019;
+			remoteInfo = WhyFiMac;
+		};
+		E2672FC220BA88DE0029C019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2672F9C20BA88DD0029C019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2672FA320BA88DD0029C019;
+			remoteInfo = WhyFiMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079145F4BE358B9E93D6AB27 /* Pods_WhyFiMacUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhyFiMacUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A42EF5F125D7884E522D677 /* Pods-WhyFiMacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyFiMacTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhyFiMacTests/Pods-WhyFiMacTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D739D920DBE1EE8122F7E47 /* Pods_WhyFiMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhyFiMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F476C21807BF16AFF335C0F /* Pods-WhyFiMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyFiMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhyFiMac/Pods-WhyFiMac.debug.xcconfig"; sourceTree = "<group>"; };
+		510EA46FC852B44591D87059 /* Pods-WhyFiMacUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyFiMacUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhyFiMacUITests/Pods-WhyFiMacUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		538C18130C246BBBD39B9C2D /* Pods-WhyFiMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyFiMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhyFiMac/Pods-WhyFiMac.release.xcconfig"; sourceTree = "<group>"; };
+		644AEF6B80C68036BB57A9B2 /* Pods-WhyFiMacTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyFiMacTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhyFiMacTests/Pods-WhyFiMacTests.release.xcconfig"; sourceTree = "<group>"; };
+		997B873DA652EECEBA3AB4A5 /* Pods_WhyFiMacTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhyFiMacTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD00B06ECBB9CD931940DEB8 /* Pods-WhyFiMacUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyFiMacUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhyFiMacUITests/Pods-WhyFiMacUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E2672FA420BA88DD0029C019 /* WhyFiMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhyFiMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2672FA720BA88DD0029C019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2672FA920BA88DD0029C019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2672FAB20BA88DE0029C019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2672FAE20BA88DE0029C019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2672FB020BA88DE0029C019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2672FB120BA88DE0029C019 /* WhyFiMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhyFiMac.entitlements; sourceTree = "<group>"; };
+		E2672FB620BA88DE0029C019 /* WhyFiMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhyFiMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2672FBA20BA88DE0029C019 /* WhyFiMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyFiMacTests.swift; sourceTree = "<group>"; };
+		E2672FBC20BA88DE0029C019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2672FC120BA88DE0029C019 /* WhyFiMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhyFiMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2672FC520BA88DE0029C019 /* WhyFiMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyFiMacUITests.swift; sourceTree = "<group>"; };
+		E2672FC720BA88DE0029C019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2DB2EFB20BABA9000125B9A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2672FA120BA88DD0029C019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6F00BDF4097190D2E7D3D8 /* Pods_WhyFiMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2672FB320BA88DE0029C019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F560BD22278D2D519A4C784 /* Pods_WhyFiMacTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2672FBE20BA88DE0029C019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB4CCD52B5E294D4E289EA7 /* Pods_WhyFiMacUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D582024E93558889FBAA4A83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D739D920DBE1EE8122F7E47 /* Pods_WhyFiMac.framework */,
+				997B873DA652EECEBA3AB4A5 /* Pods_WhyFiMacTests.framework */,
+				079145F4BE358B9E93D6AB27 /* Pods_WhyFiMacUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2672F9B20BA88DD0029C019 = {
+			isa = PBXGroup;
+			children = (
+				E2672FA620BA88DD0029C019 /* WhyFiMac */,
+				E2672FB920BA88DE0029C019 /* WhyFiMacTests */,
+				E2672FC420BA88DE0029C019 /* WhyFiMacUITests */,
+				E2672FA520BA88DD0029C019 /* Products */,
+				FA5F5A9B94C8BF17BB6BBC40 /* Pods */,
+				D582024E93558889FBAA4A83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2672FA520BA88DD0029C019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2672FA420BA88DD0029C019 /* WhyFiMac.app */,
+				E2672FB620BA88DE0029C019 /* WhyFiMacTests.xctest */,
+				E2672FC120BA88DE0029C019 /* WhyFiMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2672FA620BA88DD0029C019 /* WhyFiMac */ = {
+			isa = PBXGroup;
+			children = (
+				E2672FA720BA88DD0029C019 /* AppDelegate.swift */,
+				E2DB2EFB20BABA9000125B9A /* Network.swift */,
+				E2672FA920BA88DD0029C019 /* ViewController.swift */,
+				E2672FAB20BA88DE0029C019 /* Assets.xcassets */,
+				E2672FAD20BA88DE0029C019 /* Main.storyboard */,
+				E2672FB020BA88DE0029C019 /* Info.plist */,
+				E2672FB120BA88DE0029C019 /* WhyFiMac.entitlements */,
+			);
+			path = WhyFiMac;
+			sourceTree = "<group>";
+		};
+		E2672FB920BA88DE0029C019 /* WhyFiMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2672FBA20BA88DE0029C019 /* WhyFiMacTests.swift */,
+				E2672FBC20BA88DE0029C019 /* Info.plist */,
+			);
+			path = WhyFiMacTests;
+			sourceTree = "<group>";
+		};
+		E2672FC420BA88DE0029C019 /* WhyFiMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2672FC520BA88DE0029C019 /* WhyFiMacUITests.swift */,
+				E2672FC720BA88DE0029C019 /* Info.plist */,
+			);
+			path = WhyFiMacUITests;
+			sourceTree = "<group>";
+		};
+		FA5F5A9B94C8BF17BB6BBC40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F476C21807BF16AFF335C0F /* Pods-WhyFiMac.debug.xcconfig */,
+				538C18130C246BBBD39B9C2D /* Pods-WhyFiMac.release.xcconfig */,
+				4A42EF5F125D7884E522D677 /* Pods-WhyFiMacTests.debug.xcconfig */,
+				644AEF6B80C68036BB57A9B2 /* Pods-WhyFiMacTests.release.xcconfig */,
+				510EA46FC852B44591D87059 /* Pods-WhyFiMacUITests.debug.xcconfig */,
+				CD00B06ECBB9CD931940DEB8 /* Pods-WhyFiMacUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2672FA320BA88DD0029C019 /* WhyFiMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2672FCA20BA88DE0029C019 /* Build configuration list for PBXNativeTarget "WhyFiMac" */;
+			buildPhases = (
+				0E8AFD6D67B05A63FE55901C /* [CP] Check Pods Manifest.lock */,
+				E2672FA020BA88DD0029C019 /* Sources */,
+				E2672FA120BA88DD0029C019 /* Frameworks */,
+				E2672FA220BA88DD0029C019 /* Resources */,
+				FB0AA08E5ECEE74ACF3F83AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhyFiMac;
+			productName = WhyFiMac;
+			productReference = E2672FA420BA88DD0029C019 /* WhyFiMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2672FB520BA88DE0029C019 /* WhyFiMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2672FCD20BA88DE0029C019 /* Build configuration list for PBXNativeTarget "WhyFiMacTests" */;
+			buildPhases = (
+				3D4408B53DB612B5BB5DC9C0 /* [CP] Check Pods Manifest.lock */,
+				E2672FB220BA88DE0029C019 /* Sources */,
+				E2672FB320BA88DE0029C019 /* Frameworks */,
+				E2672FB420BA88DE0029C019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2672FB820BA88DE0029C019 /* PBXTargetDependency */,
+			);
+			name = WhyFiMacTests;
+			productName = WhyFiMacTests;
+			productReference = E2672FB620BA88DE0029C019 /* WhyFiMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2672FC020BA88DE0029C019 /* WhyFiMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2672FD020BA88DE0029C019 /* Build configuration list for PBXNativeTarget "WhyFiMacUITests" */;
+			buildPhases = (
+				984150B765952CBAF619D6A1 /* [CP] Check Pods Manifest.lock */,
+				E2672FBD20BA88DE0029C019 /* Sources */,
+				E2672FBE20BA88DE0029C019 /* Frameworks */,
+				E2672FBF20BA88DE0029C019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2672FC320BA88DE0029C019 /* PBXTargetDependency */,
+			);
+			name = WhyFiMacUITests;
+			productName = WhyFiMacUITests;
+			productReference = E2672FC120BA88DE0029C019 /* WhyFiMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2672F9C20BA88DD0029C019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Tom;
+				TargetAttributes = {
+					E2672FA320BA88DD0029C019 = {
+						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					E2672FB520BA88DE0029C019 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = E2672FA320BA88DD0029C019;
+					};
+					E2672FC020BA88DE0029C019 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = E2672FA320BA88DD0029C019;
+					};
+				};
+			};
+			buildConfigurationList = E2672F9F20BA88DD0029C019 /* Build configuration list for PBXProject "WhyFiMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2672F9B20BA88DD0029C019;
+			productRefGroup = E2672FA520BA88DD0029C019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2672FA320BA88DD0029C019 /* WhyFiMac */,
+				E2672FB520BA88DE0029C019 /* WhyFiMacTests */,
+				E2672FC020BA88DE0029C019 /* WhyFiMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2672FA220BA88DD0029C019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2672FAC20BA88DE0029C019 /* Assets.xcassets in Resources */,
+				E2672FAF20BA88DE0029C019 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2672FB420BA88DE0029C019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2672FBF20BA88DE0029C019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E8AFD6D67B05A63FE55901C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhyFiMac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D4408B53DB612B5BB5DC9C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhyFiMacTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		984150B765952CBAF619D6A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhyFiMacUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0AA08E5ECEE74ACF3F83AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WhyFiMac/Pods-WhyFiMac-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/PlainPing/PlainPing.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlainPing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhyFiMac/Pods-WhyFiMac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2672FA020BA88DD0029C019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2672FAA20BA88DD0029C019 /* ViewController.swift in Sources */,
+				E2DB2EFC20BABA9000125B9A /* Network.swift in Sources */,
+				E2672FA820BA88DD0029C019 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2672FB220BA88DE0029C019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2672FBB20BA88DE0029C019 /* WhyFiMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2672FBD20BA88DE0029C019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2672FC620BA88DE0029C019 /* WhyFiMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2672FB820BA88DE0029C019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2672FA320BA88DD0029C019 /* WhyFiMac */;
+			targetProxy = E2672FB720BA88DE0029C019 /* PBXContainerItemProxy */;
+		};
+		E2672FC320BA88DE0029C019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2672FA320BA88DD0029C019 /* WhyFiMac */;
+			targetProxy = E2672FC220BA88DE0029C019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2672FAD20BA88DE0029C019 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2672FAE20BA88DE0029C019 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2672FC820BA88DE0029C019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2672FC920BA88DE0029C019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E2672FCB20BA88DE0029C019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F476C21807BF16AFF335C0F /* Pods-WhyFiMac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WhyFiMac/WhyFiMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhyFiMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ShanghaiTech.WhyFiMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E2672FCC20BA88DE0029C019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538C18130C246BBBD39B9C2D /* Pods-WhyFiMac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WhyFiMac/WhyFiMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhyFiMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ShanghaiTech.WhyFiMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		E2672FCE20BA88DE0029C019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A42EF5F125D7884E522D677 /* Pods-WhyFiMacTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhyFiMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ShanghaiTech.WhyFiMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhyFiMac.app/Contents/MacOS/WhyFiMac";
+			};
+			name = Debug;
+		};
+		E2672FCF20BA88DE0029C019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644AEF6B80C68036BB57A9B2 /* Pods-WhyFiMacTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhyFiMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ShanghaiTech.WhyFiMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhyFiMac.app/Contents/MacOS/WhyFiMac";
+			};
+			name = Release;
+		};
+		E2672FD120BA88DE0029C019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510EA46FC852B44591D87059 /* Pods-WhyFiMacUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhyFiMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ShanghaiTech.WhyFiMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = WhyFiMac;
+			};
+			name = Debug;
+		};
+		E2672FD220BA88DE0029C019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD00B06ECBB9CD931940DEB8 /* Pods-WhyFiMacUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhyFiMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ShanghaiTech.WhyFiMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = WhyFiMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2672F9F20BA88DD0029C019 /* Build configuration list for PBXProject "WhyFiMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2672FC820BA88DE0029C019 /* Debug */,
+				E2672FC920BA88DE0029C019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2672FCA20BA88DE0029C019 /* Build configuration list for PBXNativeTarget "WhyFiMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2672FCB20BA88DE0029C019 /* Debug */,
+				E2672FCC20BA88DE0029C019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2672FCD20BA88DE0029C019 /* Build configuration list for PBXNativeTarget "WhyFiMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2672FCE20BA88DE0029C019 /* Debug */,
+				E2672FCF20BA88DE0029C019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2672FD020BA88DE0029C019 /* Build configuration list for PBXNativeTarget "WhyFiMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2672FD120BA88DE0029C019 /* Debug */,
+				E2672FD220BA88DE0029C019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2672F9C20BA88DD0029C019 /* Project object */;
+}

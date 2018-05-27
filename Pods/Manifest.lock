@@ -1,0 +1,24 @@
+PODS:
+  - KeychainAccess (3.1.0)
+  - PlainPing (0.4)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - KeychainAccess
+  - PlainPing
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KeychainAccess
+    - PlainPing
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  KeychainAccess: 94c5540b32eabf7bc32bfb976a268e8ea05fd6da
+  PlainPing: 17845ab9e2b41460edc0faa94fd02093fa17d236
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 1a6f072daff6cbdd1b1817cc6eee732de6fee91a
+
+COCOAPODS: 1.5.3
