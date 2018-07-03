@@ -2,7 +2,7 @@
 
 ## 简介
 
-把之前 https://github.com/TomJinW/WhyFi_Surfer iOS 版登录器的代码一大部分移植到了 Mac 上。简单的做了一个登录小工具。右键点击.app文件打开，如果不行的话，可能要设置一下从任意来源安装App（http://www.orsoon.com/news/168373.html ）。
+把之前 https://github.com/TomJinW/WhyFi_Surfer iOS 版登录器的代码一大部分移植到了 Mac 上。简单的做了一个登录小工具。右键点击.app文件打开，如果不行的话，可能要设置一下从任意来源安装App（http://www.orsoon.com/news/168373.html）。
 
 
 ## 主要功能
@@ -16,7 +16,7 @@
 
 ## 其他
 - 欢迎反馈任何 BUG，因时间关系我可能无法及时修补。但是还是会努力的。
-- 需要开机自动启动的话，可以自行在系统偏好设置中设定( https://jingyan.baidu.com/article/77b8dc7fbc943c6175eab64e.html )。
+- 需要开机自动启动的话，可以自行在系统偏好设置中设定。
 - 由于自己没多少时间，这个东西匆匆忙忙就上线了，请多谅解。
 
 ## 使用的第三方库

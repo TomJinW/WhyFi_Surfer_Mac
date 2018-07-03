@@ -61,7 +61,7 @@ class ViewController: NSViewController {
         }
         let username = self.txfUserName.stringValue;let password = self.txfPassword.stringValue;let state = self.chkRemember.state
         DispatchQueue.global().async {
-            Network.login(username: username, password: password, window: self, savePassWord: state)
+            Network.login(username: username, password: password, window: self, savePassWord: state, silence: 1)
             self.logging = false
         }
        

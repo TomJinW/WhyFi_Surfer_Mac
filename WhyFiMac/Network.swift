@@ -87,6 +87,7 @@ class Network{
     
     fileprivate static func syncRequest(ip:String)->(Bool,String){
         var ansrequest = URLRequest(url: URL(string: "https://controller.shanghaitech.edu.cn:8445/PortalServer/Webauth/webAuthAction!syncPortalAuthResult.action")!)
+        ansrequest.httpMethod = "POST"
         var success = false
         var message = ""
         let semaphore = DispatchSemaphore(value: 0)
@@ -178,7 +179,10 @@ class Network{
         return (success,message,ip)
     }
     
-    static func login(username:String,password:String,window:ViewController?,savePassWord:NSControl.StateValue) {
+    static func login(username:String,password:String,window:ViewController?,savePassWord:NSControl.StateValue,silence:Int) ->(Bool,String){
+        
+        var loginResult = false
+        var dateNtime = ""
         
         let sema = DispatchSemaphore( value: 0)
         if window != nil {
@@ -194,12 +198,15 @@ class Network{
                 
             }
         }else{
+            
             showNotify(title: "正在登录", detail: "正在尝试登录", informativeText: "这可能需要一点时间")
+            
         }
         DispatchQueue.global().async {
             let (status,message,ip) = loginStatus(username:username,password:password,savePassWord:savePassWord)
             if status{
                 for i in 1...10 {
+                    print(i)
                     DispatchQueue.main.async {
                         window?.lblStatus.stringValue = "正在登录..\(i)/10"
                     }
@@ -210,19 +217,28 @@ class Network{
                         if savePassWord == .on {
                             savePassword(userName: username, password: password)
                         }
+                        loginResult = true
+                        let  dateFormater = DateFormatter.init()
+                        dateFormater.dateFormat = "YYYY-MM-dd HH:mm:ss"
+                        dateNtime =  dateFormater.string(from: Date())
                         sema.signal()
                         return
                     }
                     sleep(3)
                 }
-                messageOccurred(isError:true,detail: "超时", window: window)
+                if silence != 0 {
+                    messageOccurred(isError:true,detail: "超时", window: window)
+                }
             }else{
-                messageOccurred(isError:true,detail: message, window: window)
+                if silence != 0 {
+                    messageOccurred(isError:true,detail: message, window: window)
+                }
             }
             sema.signal()
             
         }
         _ = sema.wait(timeout: DispatchTime.distantFuture)
         
+        return (loginResult,dateNtime)
     }
 }
