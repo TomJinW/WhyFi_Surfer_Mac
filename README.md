@@ -15,6 +15,7 @@
 - 支持简体中文。
 
 ## 更新
+- 2020.6.24: 增加了 Universal Binary 支持，支持 Intel-based Mac 和 Apple Silicon Mac。
 - 2018.7.3: 修改了界面大小，支持每半个小时自动登录。
 
 ## 其他
