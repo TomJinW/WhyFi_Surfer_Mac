@@ -10,7 +10,7 @@ import Foundation
 import Cocoa
 import KeychainAccess
 import SwiftyJSON
-import PlainPing
+//import PlainPing
 import CoreWLAN
 
 class Network{

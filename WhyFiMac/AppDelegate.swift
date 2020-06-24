@@ -8,7 +8,7 @@
 
 import Cocoa
 import KeychainAccess
-import PlainPing
+//import PlainPing
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate,NSUserNotificationCenterDelegate,NSMenuDelegate {
